@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_string  - prints string
+ * printf_string  - prints string
  * @var: argumanet
  * Return: the lenght of the string
  */
 
-int print_string(va_list var)
+int printf_string(va_list var)
 {
 	char *str;
 	int i;
