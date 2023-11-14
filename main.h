@@ -25,7 +25,7 @@ typedef struct format
 int _printf(const char *format, ...);
 int _putchar(char c);
 int printf_char(va_list var);
-int _strlen(char *str);
+int _strlen(char *s);
 int _strlenc(const char *s);
 int printf_string(va_list var);
 int printf_37(void);
