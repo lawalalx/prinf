@@ -28,9 +28,9 @@ int printf_char(va_list var);
 int _strlen(char *str);
 int _strlenc(const char *s);
 int printf_string(va_list var);
-int print_37(void);
-int print_dec(va_list args);
-int print_int(va_list args);
+int printf_37(void);
+int printf_dec(va_list args);
+int printf_int(va_list args);
 
 
 #endif /* MAIN_H */
