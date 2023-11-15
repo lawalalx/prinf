@@ -26,6 +26,7 @@ int _printf(const char *format, ...);
 int _putchar(char c);
 int printf_HEX(va_list val);
 int printf_HEX_aux(unsigned int num);
+int printf_bin(va_list val);
 int printf_char(va_list var);
 int _strlen(char *s);
 int _strlenc(const char *s);
