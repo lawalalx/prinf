@@ -33,6 +33,7 @@ int printf_hex_aux(unsigned long int num);
 int printf_oct(va_list val);
 int printf_pointer(va_list val);
 int printf_rot13(va_list args);
+int printf_srev(va_list args);
 int printf_char(va_list var);
 int _strlen(char *s);
 int _strlenc(const char *s);
