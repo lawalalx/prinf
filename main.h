@@ -30,6 +30,7 @@ int printf_bin(va_list val);
 int printf_exclusive_string(va_list val);
 int printf_hex(va_list val);
 int printf_hex_aux(unsigned long int num);
+int printf_oct(va_list val);
 int printf_char(va_list var);
 int _strlen(char *s);
 int _strlenc(const char *s);
